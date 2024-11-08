@@ -1,0 +1,21 @@
+# Activer le module Expires
+ExpiresActive On
+
+# Régler l'expiration pour les fichiers CSS, JS, images, etc.
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+
+# Utiliser Cache-Control pour les navigateurs modernes
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|jpg|jpeg|png|gif|svg|ico)$">
+        Header always set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+</IfModule>
+
+
