@@ -1,6 +1,6 @@
 # Projet_WEB_ONCINO
 
-<u>Lien vers le site</u> : https://alexandre-oncino.alwaysdata.net/Projet/connexion.html
-<u>Page Connexion Administrateur</u> :
-login : login
+<ins>Lien vers le site</ins> : https://alexandre-oncino.alwaysdata.net/Projet/connexion.html<br><br>
+<ins>Page Connexion Administrateur</ins> :<br>
+login : login<br>
 mot de passe : admin
